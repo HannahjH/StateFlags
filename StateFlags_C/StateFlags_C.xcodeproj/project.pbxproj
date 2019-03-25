@@ -11,10 +11,6 @@
 		F71D46812146D63D0024108E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F71D467F2146D63D0024108E /* Main.storyboard */; };
 		F71D46862146D63E0024108E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F71D46842146D63E0024108E /* LaunchScreen.storyboard */; };
 		F71D46892146D63E0024108E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F71D46882146D63E0024108E /* main.m */; };
-		F71D469A2146D9B50024108E /* TRAState.m in Sources */ = {isa = PBXBuildFile; fileRef = F71D46992146D9B50024108E /* TRAState.m */; };
-		F71D469F2146E9240024108E /* TRAStateController.m in Sources */ = {isa = PBXBuildFile; fileRef = F71D469E2146E9240024108E /* TRAStateController.m */; };
-		F71D46AF214708360024108E /* TRAStateCollectionViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = F71D46AE214708360024108E /* TRAStateCollectionViewController.h */; };
-		F71D46B2214709570024108E /* TRAStateCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F71D46B1214709570024108E /* TRAStateCollectionViewCell.m */; };
 		F71D46B6214710EA0024108E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F71D46B5214710EA0024108E /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -26,14 +22,6 @@
 		F71D46852146D63E0024108E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F71D46872146D63E0024108E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F71D46882146D63E0024108E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F71D46982146D9B50024108E /* TRAState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRAState.h; sourceTree = "<group>"; };
-		F71D46992146D9B50024108E /* TRAState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRAState.m; sourceTree = "<group>"; };
-		F71D469D2146E9240024108E /* TRAStateController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRAStateController.h; sourceTree = "<group>"; };
-		F71D469E2146E9240024108E /* TRAStateController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRAStateController.m; sourceTree = "<group>"; };
-		F71D46AD214708350024108E /* TRAStateCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRAStateCollectionViewController.m; sourceTree = "<group>"; };
-		F71D46AE214708360024108E /* TRAStateCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRAStateCollectionViewController.h; sourceTree = "<group>"; };
-		F71D46B0214709570024108E /* TRAStateCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRAStateCollectionViewCell.h; sourceTree = "<group>"; };
-		F71D46B1214709570024108E /* TRAStateCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRAStateCollectionViewCell.m; sourceTree = "<group>"; };
 		F71D46B5214710EA0024108E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,11 +55,7 @@
 		F71D46782146D63D0024108E /* StateFlags_C */ = {
 			isa = PBXGroup;
 			children = (
-				F71D46A72146EC130024108E /* Model */,
 				F71D46A52146EC060024108E /* Resources */,
-				F71D46A82146EC190024108E /* ModelController */,
-				F71D46B9214711560024108E /* ViewControllers */,
-				F7783A01214711FD00E65EEF /* Views */,
 			);
 			path = StateFlags_C;
 			sourceTree = "<group>";
@@ -88,42 +72,6 @@
 				F71D46B5214710EA0024108E /* Assets.xcassets */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		F71D46A72146EC130024108E /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				F71D46982146D9B50024108E /* TRAState.h */,
-				F71D46992146D9B50024108E /* TRAState.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		F71D46A82146EC190024108E /* ModelController */ = {
-			isa = PBXGroup;
-			children = (
-				F71D469D2146E9240024108E /* TRAStateController.h */,
-				F71D469E2146E9240024108E /* TRAStateController.m */,
-			);
-			path = ModelController;
-			sourceTree = "<group>";
-		};
-		F71D46B9214711560024108E /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				F71D46AD214708350024108E /* TRAStateCollectionViewController.m */,
-				F71D46AE214708360024108E /* TRAStateCollectionViewController.h */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		F7783A01214711FD00E65EEF /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				F71D46B0214709570024108E /* TRAStateCollectionViewCell.h */,
-				F71D46B1214709570024108E /* TRAStateCollectionViewCell.m */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,12 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F71D469F2146E9240024108E /* TRAStateController.m in Sources */,
-				F71D46AF214708360024108E /* TRAStateCollectionViewController.h in Sources */,
 				F71D46892146D63E0024108E /* main.m in Sources */,
 				F71D467B2146D63D0024108E /* AppDelegate.m in Sources */,
-				F71D46B2214709570024108E /* TRAStateCollectionViewCell.m in Sources */,
-				F71D469A2146D9B50024108E /* TRAState.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,10 +10,6 @@
 		F71D465C2146D6090024108E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71D465B2146D6090024108E /* AppDelegate.swift */; };
 		F71D46612146D6090024108E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F71D465F2146D6090024108E /* Main.storyboard */; };
 		F71D46662146D60A0024108E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F71D46642146D60A0024108E /* LaunchScreen.storyboard */; };
-		F71D46942146D87A0024108E /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71D46932146D87A0024108E /* State.swift */; };
-		F71D469C2146E83F0024108E /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71D469B2146E83F0024108E /* StateController.swift */; };
-		F71D46AA2147051B0024108E /* StateCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71D46A92147051B0024108E /* StateCollectionViewController.swift */; };
-		F71D46AC214705370024108E /* StateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71D46AB214705370024108E /* StateCollectionViewCell.swift */; };
 		F71D46B8214710FD0024108E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F71D46B7214710FD0024108E /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -23,10 +19,6 @@
 		F71D46602146D6090024108E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F71D46652146D60A0024108E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F71D46672146D60A0024108E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F71D46932146D87A0024108E /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
-		F71D469B2146E83F0024108E /* StateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
-		F71D46A92147051B0024108E /* StateCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateCollectionViewController.swift; sourceTree = "<group>"; };
-		F71D46AB214705370024108E /* StateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateCollectionViewCell.swift; sourceTree = "<group>"; };
 		F71D46B7214710FD0024108E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,10 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				F71D46A02146EB910024108E /* Resources */,
-				F71D46A32146EBB00024108E /* Model */,
-				F71D46A42146EBB80024108E /* ModelControllers */,
-				F71D46A92147051B0024108E /* StateCollectionViewController.swift */,
-				F71D46AB214705370024108E /* StateCollectionViewCell.swift */,
 			);
 			path = StateFlags_Swift;
 			sourceTree = "<group>";
@@ -79,22 +67,6 @@
 				F71D46B7214710FD0024108E /* Assets.xcassets */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		F71D46A32146EBB00024108E /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				F71D46932146D87A0024108E /* State.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		F71D46A42146EBB80024108E /* ModelControllers */ = {
-			isa = PBXGroup;
-			children = (
-				F71D469B2146E83F0024108E /* StateController.swift */,
-			);
-			path = ModelControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,11 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F71D46AC214705370024108E /* StateCollectionViewCell.swift in Sources */,
-				F71D46AA2147051B0024108E /* StateCollectionViewController.swift in Sources */,
-				F71D469C2146E83F0024108E /* StateController.swift in Sources */,
 				F71D465C2146D6090024108E /* AppDelegate.swift in Sources */,
-				F71D46942146D87A0024108E /* State.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
